@@ -1,5 +1,5 @@
 
-# stock_price_prediction
+# Stock Price Prediction
 Stock price movement direction predictor (Summer Toy Project)
 
 This was a summer toy project for analyzing stock price action/movement in the Korean Stock Exchange (KOSPI and KOSDAQ). Much like the rest of the world, there was a great bullish run after 2020 COVID-19 Market Crash, which first motivated me into researching if there were patterns in stock prices. Results were inconclusive at best (and if it were, it I would've become a millionaire)
