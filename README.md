@@ -27,7 +27,7 @@ Cluster Number: 2 Cluster Size: 674
    macro avg       0.66      0.65      0.65       674
 weighted avg       0.67      0.67      0.67       674
 
-Cluster Number: 4 Cluster Size: 809
+              Cluster Number: 4 Cluster Size: 809
               precision    recall  f1-score   support
 
          0.0       0.57      0.83      0.68       451
