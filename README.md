@@ -16,7 +16,7 @@ has an average growth rate of -1.9%
 
 Then, we use Support Vector Machine (SVM) to prediction price action movement. Best performance was 
 Clutser 2 and 4, which had the following:
-
+'''
 Cluster Number: 2 Cluster Size: 674
               precision    recall  f1-score   support
 
@@ -26,6 +26,7 @@ Cluster Number: 2 Cluster Size: 674
     accuracy                           0.67       674
    macro avg       0.66      0.65      0.65       674
 weighted avg       0.67      0.67      0.67       674
+'''
 
               Cluster Number: 4 Cluster Size: 809
               precision    recall  f1-score   support
