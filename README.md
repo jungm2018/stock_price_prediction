@@ -1,3 +1,4 @@
+
 # stock_price_prediction
 Stock price movement direction predictor (Summer Toy Project)
 
@@ -16,17 +17,17 @@ has an average growth rate of -1.9%
 
 Then, we use Support Vector Machine (SVM) to prediction price action movement. Best performance was 
 Clutser 2 and 4, which had the following:
-'''
-Cluster Number: 2 Cluster Size: 674
-              precision    recall  f1-score   support
+
+		Cluster Number: 2 Cluster Size: 674
+	              precision    recall  f1-score   support
 
          0.0       0.70      0.79      0.74       400
          1.0       0.62      0.51      0.56       274
 
-    accuracy                           0.67       674
-   macro avg       0.66      0.65      0.65       674
-weighted avg       0.67      0.67      0.67       674
-'''
+	    accuracy                           0.67       674
+	   macro avg       0.66      0.65      0.65       674
+	weighted avg       0.67      0.67      0.67       674
+
 
               Cluster Number: 4 Cluster Size: 809
               precision    recall  f1-score   support
@@ -34,9 +35,9 @@ weighted avg       0.67      0.67      0.67       674
          0.0       0.57      0.83      0.68       451
          1.0       0.51      0.22      0.31       358
 
-    accuracy                           0.56       809
-   macro avg       0.54      0.53      0.49       809
-weighted avg       0.55      0.56      0.51       809
+	    accuracy                           0.56       809
+	   macro avg       0.54      0.53      0.49       809
+	weighted avg       0.55      0.56      0.51       809
 
 # Support Vector Machines Approach:
 
@@ -49,14 +50,15 @@ Number of days predicted: 4
 Window size: 30
 Trained on Samples 434
 Testing Result:
-              precision    recall  f1-score   support
+		   
+		         precision    recall  f1-score   support
 
          0.0       0.53      0.66      0.59        53
          1.0       0.58      0.45      0.51        56
 
     accuracy                           0.55       109
-   macro avg       0.56      0.55      0.55       109
-weighted avg       0.56      0.55      0.55       109
+	macro avg       0.56      0.55      0.55       109
+	weighted avg       0.56      0.55      0.55       109
 
 
 # Sliding Window Approach:
